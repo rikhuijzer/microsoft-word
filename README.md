@@ -25,3 +25,4 @@ Git does show the correct diff when running `git diff` locally.
 It shows the Markdown changes.
 GitHub, however, just shows the `text.docx` changes as changes to a binary.
 This makes sense because `.git/config` is ignored by GitHub and GitHub cannot run arbitrary binaries during the diff.
+There is a proposal for Gitea to support this: https://github.com/go-gitea/gitea/issues/12288.
